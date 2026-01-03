@@ -22,3 +22,5 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+/Nota 3 – Agenda Eletrônica com Interface Gráfica/nbproject/private/
+/Nota 3 – Agenda Eletrônica com Interface Gráfica/build/
