@@ -128,7 +128,8 @@ public class JanelaBuscaExcluir extends javax.swing.JFrame {
         Contato contato = gerenciar.buscarContato(nome);
         
         DefaultTableModel modelo = (DefaultTableModel) tabela.getModel();
-        modelo.addRow(new object[]{nome, telefone, email,cpf});  
+        
+        //modelo.addRow(new object[]{nome, telefone, email,cpf});  
         
     }//GEN-LAST:event_jButton1ActionPerformed
 

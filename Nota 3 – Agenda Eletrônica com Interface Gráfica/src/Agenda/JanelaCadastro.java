@@ -167,6 +167,11 @@ public class JanelaCadastro extends javax.swing.JFrame {
         String email = campo_email.getText();
         String cpf = campo_cpf.getText();
         
+        
+        if(nome.isEmpty()){
+            JOptionPane.showMessageDialog(this, "Nome vazio!");
+        }
+        
         if(email.isEmpty()){
             JOptionPane.showMessageDialog(this, "Email inválido!");
         }
@@ -177,7 +182,6 @@ public class JanelaCadastro extends javax.swing.JFrame {
         
         Contato contato = new Contato(nome, telefone, email, cpf);
         //gerenciar.cadastrarContato(contato);
-        
         JOptionPane.showMessageDialog(this,"Sucesso!");
         
         campo_nome.setText("");
