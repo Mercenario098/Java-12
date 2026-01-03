@@ -59,4 +59,8 @@ public class Contato {
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
+
+    boolean isEmpty() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }

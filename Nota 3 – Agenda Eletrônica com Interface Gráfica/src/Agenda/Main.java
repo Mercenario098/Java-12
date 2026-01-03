@@ -7,8 +7,7 @@ public class Main {
         
         AgendaEletronica janela1 = new AgendaEletronica();
         janela1.setVisible(true);
-        
-              
+                     
         
     }
     
